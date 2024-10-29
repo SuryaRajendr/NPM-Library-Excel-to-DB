@@ -1,0 +1,37 @@
+{
+  "name": "excel-to-db",
+  "version": "1.0.0",
+  "description": "A versatile Node.js library to import data from Excel files into various databases including MySQL, PostgreSQL, Microsoft SQL Server, MongoDB (Mongoose), and GraphQL-enabled databases. Automates the process of mapping and migrating data from Excel to databases, making it ideal for data-heavy applications.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Surya Rajendran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuryaRajendr/npm-library-express-mvc-setup.git"
+  },  
+  "keywords": [
+    "excel",
+    "database",
+    "import",
+    "mysql",
+    "mssql",
+    "postgres",
+    "mongodb",
+    "graphql",
+    "xlsx",
+    "data-import"
+  ],
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "graphql-request": "^7.1.0",
+    "mongoose": "^8.7.3",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.11.3",
+    "pg": "^8.13.1",
+    "xlsx": "^0.18.5"
+  }
+}
